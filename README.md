@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portable Data Stack
 
 This application is an Analytics suite suite for an imaginary company selling postcards. The company sells both directly but also through resellers in the majority of European countries.
@@ -84,3 +85,6 @@ After the DAGs have completed you can either analyze the data using the querying
 Inspired by:
 - [Build a poor man’s data lake from scratch with DuckDB](https://dagster.io/blog/duckdb-data-lake)
 - [Using dbt with Dagster software-defined assets](https://docs.dagster.io/integrations/dbt/using-dbt-with-dagster)
+=======
+# Dagster_dbt_bo
+>>>>>>> b7f18281c9d9014d8ee26d3bd275299c9983ff9f
