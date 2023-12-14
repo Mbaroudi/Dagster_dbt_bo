@@ -1,0 +1,68 @@
+Transaction ID,Product name,Quantity,Total amount,Sales Channel,Customer First Name,Customer Last Name,Customer Email,Series City,Created Date,Reseller ID
+42401,6x9 Come visit me in London,3,9.600000000000001,mobile app,April,Palomo,April.Palomo@example.com,London,2020-10-07,1004
+42402,6x11 All the love from Moskva (Moscow),3,9.899999999999999,mobile app,Tony,Toscano,Tony.Toscano@example.com,Moskva (Moscow),2020-10-07,1004
+42403,6x9 Just settled in Hamburg,1,2.9,web,Karen,Keener,Karen.Keener@example.com,Hamburg,2020-10-07,1004
+42404,5.5x8.5 Come visit me in Kemerovo,6,13.200000000000001,mobile app,Megan,Carter,Megan.Carter@example.com,Kemerovo,2020-10-07,1004
+42405,4.25x6 Just settled in Kazan,6,13.200000000000001,in-store,Christopher,Wix,Christopher.Wix@example.com,Kazan,2020-10-07,1004
+42406,5.5x8.5 Greetings from Samara,3,10.8,mobile app,Andrew,Smith,Andrew.Smith@example.com,Samara,2020-10-07,1004
+42407,4x6 Just settled in Tolyatti,3,13.200000000000001,web,Roosevelt,Ayala,Roosevelt.Ayala@example.com,Tolyatti,2020-10-07,1004
+42408,5x7 Come visit me in Voronezh,5,14.0,mobile app,Amy,White,Amy.White@example.com,Voronezh,2020-10-07,1004
+42409,4.25x6 Merry Christmas from Penza,1,2.2,mobile app,Eric,Beck,Eric.Beck@example.com,Penza,2020-10-07,1004
+42410,6x11 Come visit me in Ulyanovsk,2,8.8,web,George,Diaz,George.Diaz@example.com,Ulyanovsk,2020-10-07,1004
+42411,6x9 All the love from Yaroslave,6,19.799999999999997,web,Sean,Call,Sean.Call@example.com,Yaroslave,2020-10-07,1004
+42412,5.5x8.5 Just settled in Tolyatti,3,10.8,web,Pansy,Calhoun,Pansy.Calhoun@example.com,Tolyatti,2020-10-07,1004
+42413,6x11 Come visit me in Saratov,2,6.4,web,Janet,Villanueva,Janet.Villanueva@example.com,Saratov,2020-10-07,1004
+42414,4.25x6 Come visit me in Roma,5,10.0,mobile app,Andrea,Dorsey,Andrea.Dorsey@example.com,Roma,2020-10-07,1004
+42415,6x11 All the love from Yaroslave,5,9.5,mobile app,Charles,Lozano,Charles.Lozano@example.com,Yaroslave,2020-10-07,1004
+42416,6x11 Greetings from Salonika,3,8.399999999999999,mobile app,Christina,Miranda,Christina.Miranda@example.com,Salonika,2020-10-07,1004
+42417,6x9 Just settled in Mykolaiv ,5,18.5,mobile app,Robert,Wilcutt,Robert.Wilcutt@example.com,Mykolaiv ,2020-10-07,1004
+42418,4.25x6 Greetings from Zagreb,3,9.3,web,Regina,Ross,Regina.Ross@example.com,Zagreb,2020-10-07,1004
+42419,4x6 Just settled in Rostov-Na-Donu,3,8.399999999999999,mobile app,Steven,Mcneil,Steven.Mcneil@example.com,Rostov-Na-Donu,2020-10-07,1004
+42420,6x11 Greetings from Vilnius,3,11.7,web,Manuel,Harkavy,Manuel.Harkavy@example.com,Vilnius,2020-10-07,1004
+42421,4.25x6 Greetings from Barnaul,4,6.0,mobile app,Daniel,West,Daniel.West@example.com,Barnaul,2020-10-07,1004
+42422,5.5x8.5 All the love from Helsinki,5,13.0,mobile app,Gene,Cole,Gene.Cole@example.com,Helsinki,2020-10-07,1004
+42423,4x6 Merry Christmas from Novokuznetsk,6,13.200000000000001,web,Hector,Hamrick,Hector.Hamrick@example.com,Novokuznetsk,2020-10-07,1004
+42424,5.5x8.5 Just settled in Ekaterinoburg,6,19.200000000000003,mobile app,Dorothy,Hall,Dorothy.Hall@example.com,Ekaterinoburg,2020-10-07,1004
+42425,4.25x6 Greetings from Novosibirsk,3,8.7,mobile app,Teri,Yoo,Teri.Yoo@example.com,Novosibirsk,2020-10-07,1004
+42426,6x9 Just settled in Saratov,2,3.0,web,Eli,Hill,Eli.Hill@example.com,Saratov,2020-10-07,1004
+42427,6x11 Merry Christmas from Köln (Cologne),4,6.8,mobile app,Gregory,Chau,Gregory.Chau@example.com,Köln (Cologne),2020-10-07,1004
+42428,5.5x8.5 Merry Christmas from Novokuznetsk,5,20.0,mobile app,Thomas,Horrigan,Thomas.Horrigan@example.com,Novokuznetsk,2020-10-07,1004
+42429,5x7 Greetings from Mykolaiv ,2,3.4,web,Lorraine,Wicker,Lorraine.Wicker@example.com,Mykolaiv ,2020-10-07,1004
+42430,4.25x6 Greetings from Warszawa (Warsaw),6,22.200000000000003,web,Michelle,Cammack,Michelle.Cammack@example.com,Warszawa (Warsaw),2020-10-07,1004
+42431,4.25x6 All the love from Zagreb,4,8.8,in-store,Kim,Ornelas,Kim.Ornelas@example.com,Zagreb,2020-10-07,1004
+42432,6x9 Merry Christmas from Kraków,2,8.2,web,Krystal,Vandiver,Krystal.Vandiver@example.com,Kraków,2020-10-07,1004
+42433,5x7 Merry Christmas from Kryvy Rig,6,19.799999999999997,mobile app,Ida,Lynn,Ida.Lynn@example.com,Kryvy Rig,2020-10-07,1004
+42434,5.5x8.5 Greetings from Donetsk ,5,15.0,mobile app,Caroline,Wilcutt,Caroline.Wilcutt@example.com,Donetsk ,2020-10-07,1004
+42435,4.25x6 All the love from Hannover,5,7.5,web,Steven,Houchens,Steven.Houchens@example.com,Hannover,2020-10-07,1004
+42436,5.5x8.5 All the love from Omsk,6,15.600000000000001,web,Michelle,Abela,Michelle.Abela@example.com,Omsk,2020-10-07,1004
+42437,5x7 Greetings from Helsinki,6,11.399999999999999,mobile app,Eric,Gentry,Eric.Gentry@example.com,Helsinki,2020-10-07,1004
+42438,4x6 Greetings from Paris,6,13.200000000000001,mobile app,Mary,Johnson,Mary.Johnson@example.com,Paris,2020-10-07,1004
+42439,4x6 Just settled in Salonika,5,11.5,in-store,Edith,Holder,Edith.Holder@example.com,Salonika,2020-10-07,1004
+42440,6x11 Just settled in Vilnius,1,3.3,web,Nadine,Reeder,Nadine.Reeder@example.com,Vilnius,2020-10-07,1004
+42441,6x11 Greetings from Kobenhavn (Copenhagen),2,6.8,web,Jennifer,Rowe,Jennifer.Rowe@example.com,Kobenhavn (Copenhagen),2020-10-07,1004
+42442,4.25x6 Come visit me in Lisboa (Lisbon),5,9.0,mobile app,Roosevelt,Holder,Roosevelt.Holder@example.com,Lisboa (Lisbon),2020-10-07,1004
+42443,6x9 Just settled in Tolyatti,5,12.0,web,Michael,Kelley,Michael.Kelley@example.com,Tolyatti,2020-10-07,1004
+42444,6x9 All the love from Samara,4,6.8,in-store,Julie,Gordon,Julie.Gordon@example.com,Samara,2020-10-07,1004
+42445,4.25x6 Just settled in Vilnius,6,14.399999999999999,web,Andrew,Smith,Andrew.Smith@example.com,Vilnius,2020-10-07,1004
+42446,4x6 Come visit me in Málaga,2,3.4,mobile app,Suzanne,Sanner,Suzanne.Sanner@example.com,Málaga,2020-10-07,1004
+42447,4x6 Just settled in Lvov,1,1.8,mobile app,April,Montiel,April.Montiel@example.com,Lvov,2020-10-07,1004
+42448,5x7 All the love from Chelyabinsk,4,9.6,in-store,Elena,Gaitan,Elena.Gaitan@example.com,Chelyabinsk,2020-10-07,1004
+42449,4x6 All the love from Barnaul,5,21.0,web,Hiram,Colburn,Hiram.Colburn@example.com,Barnaul,2020-10-07,1004
+42450,6x9 Merry Christmas from Yaroslave,5,17.5,web,Vanessa,Houchens,Vanessa.Houchens@example.com,Yaroslave,2020-10-07,1004
+42451,5.5x8.5 Just settled in Zaragoza,1,3.4,mobile app,Ruth,Johnson,Ruth.Johnson@example.com,Zaragoza,2020-10-07,1004
+42452,6x11 All the love from Kazan,6,14.399999999999999,mobile app,Jesse,Jones,Jesse.Jones@example.com,Kazan,2020-10-07,1004
+42453,4.25x6 Come visit me in Málaga,1,3.4,web,Robert,Reliford,Robert.Reliford@example.com,Málaga,2020-10-07,1004
+42454,5x7 Come visit me in Hamburg,3,6.8999999999999995,web,Michael,Rodriguez,Michael.Rodriguez@example.com,Hamburg,2020-10-07,1004
+42455,6x9 Greetings from Salonika,4,8.0,web,Jason,Heaton,Jason.Heaton@example.com,Salonika,2020-10-07,1004
+42456,6x11 Come visit me in Kryvy Rig,2,6.8,web,Darrel,Muldrow,Darrel.Muldrow@example.com,Kryvy Rig,2020-10-07,1004
+42457,5x7 Greetings from Amsterdam,6,19.799999999999997,mobile app,Lisa,Miller,Lisa.Miller@example.com,Amsterdam,2020-10-07,1004
+42458,5.5x8.5 Merry Christmas from Barcelona,3,11.100000000000001,mobile app,Numbers,Booker,Numbers.Booker@example.com,Barcelona,2020-10-07,1004
+42459,6x9 Come visit me in Palermo,6,21.0,mobile app,Anthony,Riley,Anthony.Riley@example.com,Palermo,2020-10-07,1004
+42460,5.5x8.5 All the love from Kiev,6,22.200000000000003,web,Norma,Holloway,Norma.Holloway@example.com,Kiev,2020-10-07,1004
+42461,5x7 All the love from Milano (Milan),4,6.4,in-store,Joe,Guy,Joe.Guy@example.com,Milano (Milan),2020-10-07,1004
+42462,5.5x8.5 All the love from Budapest,1,3.9,mobile app,Justin,Orf,Justin.Orf@example.com,Budapest,2020-10-07,1004
+42463,4x6 Just settled in Marseille,4,15.6,web,James,Zabala,James.Zabala@example.com,Marseille,2020-10-07,1004
+42464,5.5x8.5 Greetings from Zaporozhye,5,19.5,mobile app,Shelia,Biagioni,Shelia.Biagioni@example.com,Zaporozhye,2020-10-07,1004
+42465,6x11 Just settled in Birmingham,2,4.8,mobile app,Willie,White,Willie.White@example.com,Birmingham,2020-10-07,1004
+42466,4.25x6 Come visit me in Nizhny Novgorod,4,6.8,web,Tamara,Porter,Tamara.Porter@example.com,Nizhny Novgorod,2020-10-07,1004
+42467,4.25x6 Come visit me in Ulyanovsk,3,10.8,web,Heidi,Smithey,Heidi.Smithey@example.com,Ulyanovsk,2020-10-07,1004

@@ -1,0 +1,49 @@
+Transaction ID,Product name,Quantity,Total amount,Sales Channel,Customer First Name,Customer Last Name,Customer Email,Series City,Created Date,Reseller ID
+14163,4x6 Greetings from Samara,2,8.6,mobile app,Philip,Tetterton,Philip.Tetterton@example.com,Samara,2019-08-04,1003
+14164,4.25x6 Greetings from Rostov-Na-Donu,4,9.6,mobile app,Jesus,Berry,Jesus.Berry@example.com,Rostov-Na-Donu,2019-08-04,1003
+14165,4x6 Greetings from Amsterdam,1,3.4,mobile app,Robin,Sullivan,Robin.Sullivan@example.com,Amsterdam,2019-08-04,1003
+14166,5x7 Greetings from Volgograd,5,21.0,mobile app,Susan,Connell,Susan.Connell@example.com,Volgograd,2019-08-04,1003
+14167,5.5x8.5 Greetings from Sheffield,1,4.4,mobile app,Ida,Riles,Ida.Riles@example.com,Sheffield,2019-08-04,1003
+14168,6x9 Just settled in Krasnoyarsk,6,18.6,in-store,Ben,Roberson,Ben.Roberson@example.com,Krasnoyarsk,2019-08-04,1003
+14169,5x7 Greetings from Ekaterinoburg,3,10.2,web,Deshawn,Hall,Deshawn.Hall@example.com,Ekaterinoburg,2019-08-04,1003
+14170,5x7 All the love from Milano (Milan),4,6.4,web,Deborah,Legette,Deborah.Legette@example.com,Milano (Milan),2019-08-04,1003
+14171,6x9 Come visit me in Palermo,2,7.0,mobile app,Marian,Parkison,Marian.Parkison@example.com,Palermo,2019-08-04,1003
+14172,5x7 Merry Christmas from Penza,5,16.0,in-store,Gary,Hess,Gary.Hess@example.com,Penza,2019-08-04,1003
+14173,4.25x6 Greetings from Milano (Milan),2,8.8,web,Jessie,Jaimes,Jessie.Jaimes@example.com,Milano (Milan),2019-08-04,1003
+14174,5x7 Merry Christmas from Oslo,5,11.5,mobile app,Karen,Frey,Karen.Frey@example.com,Oslo,2019-08-04,1003
+14175,5x7 Merry Christmas from München (Munich),3,5.4,mobile app,Anthony,Fields,Anthony.Fields@example.com,München (Munich),2019-08-04,1003
+14176,5x7 Come visit me in Volgograd,1,2.3,web,Lewis,Greely,Lewis.Greely@example.com,Volgograd,2019-08-04,1003
+14177,5.5x8.5 Greetings from Tula,3,11.399999999999999,mobile app,Chelsea,Calhoun,Chelsea.Calhoun@example.com,Tula,2019-08-04,1003
+14178,5x7 All the love from Zaporozhye,5,15.0,web,Marjorie,Cox,Marjorie.Cox@example.com,Zaporozhye,2019-08-04,1003
+14179,5.5x8.5 Greetings from Zagreb,4,14.8,web,Charles,Morton,Charles.Morton@example.com,Zagreb,2019-08-04,1003
+14180,4.25x6 All the love from Duisburg,3,6.8999999999999995,mobile app,Michael,Davis,Michael.Davis@example.com,Duisburg,2019-08-04,1003
+14181,4x6 Merry Christmas from Kryvy Rig,4,11.6,mobile app,Jason,Johnson,Jason.Johnson@example.com,Kryvy Rig,2019-08-04,1003
+14182,6x11 All the love from Kraków,5,18.0,web,Crystal,Toscano,Crystal.Toscano@example.com,Kraków,2019-08-04,1003
+14183,4x6 Merry Christmas from London,1,2.1,mobile app,Cornelius,Rodriguez,Cornelius.Rodriguez@example.com,London,2019-08-04,1003
+14184,6x11 Greetings from Nizhny Novgorod,3,4.5,mobile app,Shirley,Lentz,Shirley.Lentz@example.com,Nizhny Novgorod,2019-08-04,1003
+14185,5.5x8.5 Come visit me in Berlin,5,9.5,mobile app,Marion,Sayers,Marion.Sayers@example.com,Berlin,2019-08-04,1003
+14186,6x11 Come visit me in Bucuresti (Bucharest),5,18.0,web,Patricia,Infield,Patricia.Infield@example.com,Bucuresti (Bucharest),2019-08-04,1003
+14187,6x11 Just settled in Amsterdam,6,19.799999999999997,web,Russell,Resendiz,Russell.Resendiz@example.com,Amsterdam,2019-08-04,1003
+14188,5x7 Just settled in Nizhny Novgorod,1,3.0,web,Carmela,Hornak,Carmela.Hornak@example.com,Nizhny Novgorod,2019-08-04,1003
+14189,4.25x6 Just settled in Mykolaiv ,3,8.399999999999999,mobile app,Scott,Berry,Scott.Berry@example.com,Mykolaiv ,2019-08-04,1003
+14190,5.5x8.5 Merry Christmas from Madrid,4,11.2,web,Caroline,Priest,Caroline.Priest@example.com,Madrid,2019-08-04,1003
+14191,5x7 Just settled in Madrid,5,9.0,web,William,Harris,William.Harris@example.com,Madrid,2019-08-04,1003
+14192,5.5x8.5 All the love from Wien (Vienna),6,26.400000000000002,mobile app,Traci,Rodriguez,Traci.Rodriguez@example.com,Wien (Vienna),2019-08-04,1003
+14193,4x6 Just settled in Beograd (Belgrade),5,16.0,mobile app,Robert,Newman,Robert.Newman@example.com,Beograd (Belgrade),2019-08-04,1003
+14194,5.5x8.5 All the love from Zaporozhye,1,3.3,web,Rhonda,Messer,Rhonda.Messer@example.com,Zaporozhye,2019-08-04,1003
+14195,6x9 Just settled in Duisburg,6,25.799999999999997,mobile app,Mary,Harris,Mary.Harris@example.com,Duisburg,2019-08-04,1003
+14196,5x7 Just settled in Frankfurt Am Main,4,15.6,web,Shirley,Williamson,Shirley.Williamson@example.com,Frankfurt Am Main,2019-08-04,1003
+14197,5x7 Just settled in St Petersburg,4,14.4,web,Paul,Bednar,Paul.Bednar@example.com,St Petersburg,2019-08-04,1003
+14198,5.5x8.5 Merry Christmas from Beograd (Belgrade),4,16.0,mobile app,Misty,Furr,Misty.Furr@example.com,Beograd (Belgrade),2019-08-04,1003
+14199,6x11 Greetings from Kemerovo,6,23.4,mobile app,Mary,Mcalpin,Mary.Mcalpin@example.com,Kemerovo,2019-08-04,1003
+14200,5.5x8.5 All the love from Rotterdam,1,3.2,web,Cody,Kantor,Cody.Kantor@example.com,Rotterdam,2019-08-04,1003
+14201,5.5x8.5 All the love from Sevilla,6,22.200000000000003,mobile app,Donald,Hackney,Donald.Hackney@example.com,Sevilla,2019-08-04,1003
+14202,4x6 Greetings from Ulyanovsk,4,12.8,web,Margaret,Jacobsen,Margaret.Jacobsen@example.com,Ulyanovsk,2019-08-04,1003
+14203,5x7 Merry Christmas from Barcelona,6,18.0,mobile app,Reginald,Rutherford,Reginald.Rutherford@example.com,Barcelona,2019-08-04,1003
+14204,4x6 Just settled in Rostov-Na-Donu,3,8.399999999999999,in-store,Kelly,Ebert,Kelly.Ebert@example.com,Rostov-Na-Donu,2019-08-04,1003
+14205,6x11 Just settled in Ulyanovsk,2,8.2,web,Ruth,Mosher,Ruth.Mosher@example.com,Ulyanovsk,2019-08-04,1003
+14206,5.5x8.5 Come visit me in Kharkov,2,8.6,mobile app,Rafael,Dacey,Rafael.Dacey@example.com,Kharkov,2019-08-04,1003
+14207,5.5x8.5 Greetings from Praha (Prague),5,8.0,in-store,Thomas,Coates,Thomas.Coates@example.com,Praha (Prague),2019-08-04,1003
+14208,6x9 Greetings from Glasgow,5,20.0,web,Jason,Rothfeld,Jason.Rothfeld@example.com,Glasgow,2019-08-04,1003
+14209,4.25x6 Greetings from Poznan,3,4.5,in-store,Ruth,Wilson,Ruth.Wilson@example.com,Poznan,2019-08-04,1003
+14210,5.5x8.5 Merry Christmas from Volgograd,4,13.2,web,Kim,Dana,Kim.Dana@example.com,Volgograd,2019-08-04,1003

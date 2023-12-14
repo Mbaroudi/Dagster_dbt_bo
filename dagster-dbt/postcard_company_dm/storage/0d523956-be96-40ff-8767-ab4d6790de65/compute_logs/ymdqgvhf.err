@@ -1,0 +1,135 @@
+2023-12-01 14:47:03 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - LOGS_CAPTURED - Started capturing logs in process (pid: 2011).
+2023-12-01 14:47:03 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_START - Started execution of step "run_dbt_7daad".
+2023-12-01 14:47:03 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Executing command: dbt --no-use-colors --log-format json build --project-dir /dagster-dbt/postcard_company_dm/postcard_company_dm/../dbt --profiles-dir /dagster-dbt/postcard_company_dm/postcard_company_dm/../dbt/config --select fqn:*
+2023-12-01 14:47:07 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Running with dbt=1.7.3
+2023-12-01 14:47:08 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Registered adapter: duckdb=1.7.0
+2023-12-01 14:47:08 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Found 22 models, 1 test, 1 seed, 7 sources, 0 exposures, 0 metrics, 503 macros, 0 groups, 0 semantic models
+2023-12-01 14:47:08 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad
+2023-12-01 14:47:13 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Concurrency: 1 threads (target='local')
+2023-12-01 14:47:13 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad
+2023-12-01 14:47:13 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 1 of 24 START sql table model postcard_company_core.dim_date ................... [RUN]
+2023-12-01 14:47:14 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_date" of type "Nothing". (Type check passed).
+2023-12-01 14:47:14 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_date.
+2023-12-01 14:47:14 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_date" using IO manager "io_manager"
+2023-12-01 14:47:14 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 1 of 24 OK created sql table model postcard_company_core.dim_date .............. [OK in 0.95s]
+2023-12-01 14:47:14 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 2 of 24 START sql table model postcard_company_raw.raw_channels ................ [RUN]
+2023-12-01 14:47:15 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_channels" of type "Nothing". (Type check passed).
+2023-12-01 14:47:15 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_channels.
+2023-12-01 14:47:15 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_channels" using IO manager "io_manager"
+2023-12-01 14:47:15 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 2 of 24 OK created sql table model postcard_company_raw.raw_channels ........... [OK in 0.72s]
+2023-12-01 14:47:15 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 3 of 24 START sql table model postcard_company_raw.raw_customers ............... [RUN]
+2023-12-01 14:47:16 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_customers" of type "Nothing". (Type check passed).
+2023-12-01 14:47:16 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_customers.
+2023-12-01 14:47:16 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_customers" using IO manager "io_manager"
+2023-12-01 14:47:16 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 3 of 24 OK created sql table model postcard_company_raw.raw_customers .......... [OK in 1.38s]
+2023-12-01 14:47:16 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 4 of 24 START sql table model postcard_company_raw.raw_products ................ [RUN]
+2023-12-01 14:47:17 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_products" of type "Nothing". (Type check passed).
+2023-12-01 14:47:17 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_products.
+2023-12-01 14:47:17 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_products" using IO manager "io_manager"
+2023-12-01 14:47:17 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 4 of 24 OK created sql table model postcard_company_raw.raw_products ........... [OK in 0.68s]
+2023-12-01 14:47:17 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 5 of 24 START sql table model postcard_company_raw.raw_resellers ............... [RUN]
+2023-12-01 14:47:17 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_resellers" of type "Nothing". (Type check passed).
+2023-12-01 14:47:18 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_resellers.
+2023-12-01 14:47:18 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_resellers" using IO manager "io_manager"
+2023-12-01 14:47:18 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 5 of 24 OK created sql table model postcard_company_raw.raw_resellers .......... [OK in 0.66s]
+2023-12-01 14:47:18 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 6 of 24 START sql table model postcard_company_raw.raw_resellers_csv ........... [RUN]
+2023-12-01 14:47:28 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_resellers_csv" of type "Nothing". (Type check passed).
+2023-12-01 14:47:28 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_resellers_csv.
+2023-12-01 14:47:28 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_resellers_csv" using IO manager "io_manager"
+2023-12-01 14:47:28 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 6 of 24 OK created sql table model postcard_company_raw.raw_resellers_csv ...... [OK in 10.54s]
+2023-12-01 14:47:28 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 7 of 24 START sql table model postcard_company_raw.raw_resellers_json .......... [RUN]
+2023-12-01 14:47:29 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_resellers_json" of type "Nothing". (Type check passed).
+2023-12-01 14:47:30 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_resellers_json.
+2023-12-01 14:47:30 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_resellers_json" using IO manager "io_manager"
+2023-12-01 14:47:30 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 7 of 24 OK created sql table model postcard_company_raw.raw_resellers_json ..... [OK in 1.42s]
+2023-12-01 14:47:30 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 8 of 24 START sql table model postcard_company_raw.raw_transactions ............ [RUN]
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "raw_transactions" of type "Nothing". (Type check passed).
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw raw_transactions.
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "raw_transactions" using IO manager "io_manager"
+2023-12-01 14:47:32 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 8 of 24 OK created sql table model postcard_company_raw.raw_transactions ....... [OK in 2.10s]
+2023-12-01 14:47:32 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 9 of 24 START seed file postcard_company_raw.geography ......................... [RUN]
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "geography" of type "Nothing". (Type check passed).
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value raw geography.
+2023-12-01 14:47:32 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "geography" using IO manager "io_manager"
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 9 of 24 OK loaded seed file postcard_company_raw.geography ..................... [INSERT 100 in 0.48s]
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 10 of 24 START sql table model postcard_company_staging.staging_channels ....... [RUN]
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_channels" of type "Nothing". (Type check passed).
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_channels.
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_channels" using IO manager "io_manager"
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 10 of 24 OK created sql table model postcard_company_staging.staging_channels .. [OK in 0.33s]
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 11 of 24 START sql table model postcard_company_staging.staging_resellers ...... [RUN]
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_resellers" of type "Nothing". (Type check passed).
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_resellers.
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_resellers" using IO manager "io_manager"
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 11 of 24 OK created sql table model postcard_company_staging.staging_resellers . [OK in 0.34s]
+2023-12-01 14:47:33 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 12 of 24 START sql table model postcard_company_core.dim_geography ............. [RUN]
+2023-12-01 14:47:33 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_geography" of type "Nothing". (Type check passed).
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_geography.
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_geography" using IO manager "io_manager"
+2023-12-01 14:47:34 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 12 of 24 OK created sql table model postcard_company_core.dim_geography ........ [OK in 0.35s]
+2023-12-01 14:47:34 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 13 of 24 START sql table model postcard_company_staging.staging_products ....... [RUN]
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_products" of type "Nothing". (Type check passed).
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_products.
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_products" using IO manager "io_manager"
+2023-12-01 14:47:34 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 13 of 24 OK created sql table model postcard_company_staging.staging_products .. [OK in 0.33s]
+2023-12-01 14:47:34 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 14 of 24 START sql table model postcard_company_core.dim_channel ............... [RUN]
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_channel" of type "Nothing". (Type check passed).
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_channel.
+2023-12-01 14:47:34 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_channel" using IO manager "io_manager"
+2023-12-01 14:47:34 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 14 of 24 OK created sql table model postcard_company_core.dim_channel .......... [OK in 0.37s]
+2023-12-01 14:47:35 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 15 of 24 START sql table model postcard_company_core.dim_salesagent ............ [RUN]
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_salesagent" of type "Nothing". (Type check passed).
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_salesagent.
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_salesagent" using IO manager "io_manager"
+2023-12-01 14:47:35 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 15 of 24 OK created sql table model postcard_company_core.dim_salesagent ....... [OK in 0.35s]
+2023-12-01 14:47:35 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 16 of 24 START sql table model postcard_company_core.dim_product ............... [RUN]
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_product" of type "Nothing". (Type check passed).
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_product.
+2023-12-01 14:47:35 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_product" using IO manager "io_manager"
+2023-12-01 14:47:35 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 16 of 24 OK created sql table model postcard_company_core.dim_product .......... [OK in 0.33s]
+2023-12-01 14:47:35 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 17 of 24 START sql table model postcard_company_staging.staging_customers ...... [RUN]
+2023-12-01 14:47:36 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_customers" of type "Nothing". (Type check passed).
+2023-12-01 14:47:36 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_customers.
+2023-12-01 14:47:36 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_customers" using IO manager "io_manager"
+2023-12-01 14:47:36 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 17 of 24 OK created sql table model postcard_company_staging.staging_customers . [OK in 1.39s]
+2023-12-01 14:47:36 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 18 of 24 START sql table model postcard_company_core.dim_customer .............. [RUN]
+2023-12-01 14:47:37 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "dim_customer" of type "Nothing". (Type check passed).
+2023-12-01 14:47:37 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core dim_customer.
+2023-12-01 14:47:37 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "dim_customer" using IO manager "io_manager"
+2023-12-01 14:47:37 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 18 of 24 OK created sql table model postcard_company_core.dim_customer ......... [OK in 0.92s]
+2023-12-01 14:47:37 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 19 of 24 START sql incremental model postcard_company_staging.staging_transactions_main  [RUN]
+2023-12-01 14:47:38 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_transactions_main" of type "Nothing". (Type check passed).
+2023-12-01 14:47:39 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_transactions_main.
+2023-12-01 14:47:39 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_transactions_main" using IO manager "io_manager"
+2023-12-01 14:47:39 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 19 of 24 OK created sql incremental model postcard_company_staging.staging_transactions_main  [OK in 1.54s]
+2023-12-01 14:47:39 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 20 of 24 START sql incremental model postcard_company_staging.staging_transactions_resellers_csv  [RUN]
+2023-12-01 14:47:39 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_transactions_resellers_csv" of type "Nothing". (Type check passed).
+2023-12-01 14:47:39 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_transactions_resellers_csv.
+2023-12-01 14:47:39 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_transactions_resellers_csv" using IO manager "io_manager"
+2023-12-01 14:47:39 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 20 of 24 OK created sql incremental model postcard_company_staging.staging_transactions_resellers_csv  [OK in 0.80s]
+2023-12-01 14:47:39 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 21 of 24 START sql incremental model postcard_company_staging.staging_transactions_resellers_json  [RUN]
+2023-12-01 14:47:40 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_transactions_resellers_json" of type "Nothing". (Type check passed).
+2023-12-01 14:47:40 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_transactions_resellers_json.
+2023-12-01 14:47:40 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_transactions_resellers_json" using IO manager "io_manager"
+2023-12-01 14:47:40 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 21 of 24 OK created sql incremental model postcard_company_staging.staging_transactions_resellers_json  [OK in 0.60s]
+2023-12-01 14:47:40 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 22 of 24 START sql table model postcard_company_staging.staging_transactions ... [RUN]
+2023-12-01 14:47:41 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "staging_transactions" of type "Nothing". (Type check passed).
+2023-12-01 14:47:41 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value staging staging_transactions.
+2023-12-01 14:47:41 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "staging_transactions" using IO manager "io_manager"
+2023-12-01 14:47:41 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 22 of 24 OK created sql table model postcard_company_staging.staging_transactions  [OK in 1.16s]
+2023-12-01 14:47:41 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 23 of 24 START sql table model postcard_company_core.fact_sales ................ [RUN]
+2023-12-01 14:47:42 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_OUTPUT - Yielded output "fact_sales" of type "Nothing". (Type check passed).
+2023-12-01 14:47:42 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_MATERIALIZATION - Materialized value core fact_sales.
+2023-12-01 14:47:42 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - HANDLED_OUTPUT - Handled output "fact_sales" using IO manager "io_manager"
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 23 of 24 OK created sql table model postcard_company_core.fact_sales ........... [OK in 1.04s]
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 24 of 24 START test total_amount_is_non_negative ............................... [RUN]
+2023-12-01 14:47:42 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step run_dbt_7daad
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - 24 of 24 PASS total_amount_is_non_negative ..................................... [PASS in 0.30s]
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Finished running 19 table models, 1 seed, 3 incremental models, 1 test in 0 hours 0 minutes and 34.34 seconds (34.34s).
+2023-12-01 14:47:42 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad
+2023-12-01 14:47:43 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Completed successfully
+2023-12-01 14:47:43 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad
+2023-12-01 14:47:43 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - Done. PASS=24 WARN=0 ERROR=0 SKIP=0 TOTAL=24
+2023-12-01 14:47:43 +0000 - dagster - INFO - resource:dbt - 0d523956-be96-40ff-8767-ab4d6790de65 - run_dbt_7daad - dbt exited with return code 0
+2023-12-01 14:47:43 +0000 - dagster - DEBUG - __ASSET_JOB - 0d523956-be96-40ff-8767-ab4d6790de65 - 2011 - run_dbt_7daad - STEP_SUCCESS - Finished execution of step "run_dbt_7daad" in 39.93s.

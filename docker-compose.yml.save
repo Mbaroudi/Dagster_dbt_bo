@@ -1,0 +1,61 @@
+version: "3.7"
+
+services:
+  oltp:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: 'sales_oltp'
+      POSTGRES_USER: $POSTGRES_USER
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+    ports:
+      - 54321:5432
+    # Enable external connections
+    command: ["postgres", "-c", "listen_addresses=*"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d sales_oltp"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s
+  generator:
+    build:
+      context: .
+      dockerfile: ./generator/Dockerfile
+      args:
+        POSTGRES_USER: $POSTGRES_USER
+        POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+    volumes:
+      - ./shared:/shared
+    depends_on:
+      oltp:
+        condition: service_healthy
+  dagster-dbt:
+    build:
+      context: .
+      dockerfile: ./dagster-dbt/Dockerfile
+    restart: always
+    environment:
+        POSTGRES_USER: ${POSTGRES_USER}
+        POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        DAGSTER_HOME: /dagster-dbt/postcard_company_dm
+    volumes:
+        - ./shared:/shared
+        - ./dagster-dbt/postcard_company_dm:/dagster-dbt/postcard_company_dm
+    ports:
+        - "3000:3000"
+    command: dagit -h 0.0.0.0
+    depends_on:
+      generator:
+        condition: service_completed_successfully
+
+  notebook:
+    image: jupyter/base-notebook
+    user: root
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./shared:/shared
+      - ./dagster-dbt/postcard_company_dm:/dagster-dbt/postcard_company_dm
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.notebook_dir='/dagster-dbt/postcard_company_dm' --ip=0.0.0.0 --port=8888 --no-browser --allow-root

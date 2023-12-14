@@ -1,0 +1,50 @@
+Transaction ID,Product name,Quantity,Total amount,Sales Channel,Customer First Name,Customer Last Name,Customer Email,Series City,Created Date,Reseller ID
+20414,5x7 All the love from Krasnoyarsk,2,4.0,in-store,Arlene,Steven,Arlene.Steven@example.com,Krasnoyarsk,2019-11-09,1003
+20415,6x11 Just settled in Saratov,6,16.200000000000003,web,Richard,Emerson,Richard.Emerson@example.com,Saratov,2019-11-09,1003
+20416,5.5x8.5 Just settled in Kobenhavn (Copenhagen),5,10.5,web,Anita,Thomas,Anita.Thomas@example.com,Kobenhavn (Copenhagen),2019-11-09,1003
+20417,4x6 Just settled in Dortmund,6,24.0,web,Elizabeth,Xia,Elizabeth.Xia@example.com,Dortmund,2019-11-09,1003
+20418,4.25x6 Greetings from Hannover,6,9.0,web,Delmar,Diaz,Delmar.Diaz@example.com,Hannover,2019-11-09,1003
+20419,6x11 Merry Christmas from Wien (Vienna),1,2.6,web,James,Ryan,James.Ryan@example.com,Wien (Vienna),2019-11-09,1003
+20420,5.5x8.5 All the love from Hamburg,4,10.4,mobile app,Gertrude,Williams,Gertrude.Williams@example.com,Hamburg,2019-11-09,1003
+20421,6x11 Greetings from Riga,4,17.6,mobile app,Dennis,Boyd,Dennis.Boyd@example.com,Riga,2019-11-09,1003
+20422,5.5x8.5 Merry Christmas from Kemerovo,6,25.799999999999997,mobile app,Christina,Davis,Christina.Davis@example.com,Kemerovo,2019-11-09,1003
+20423,6x11 Come visit me in Chelyabinsk,5,8.0,web,Laura,Cook,Laura.Cook@example.com,Chelyabinsk,2019-11-09,1003
+20424,6x11 Come visit me in Oslo,3,9.899999999999999,mobile app,Nell,Baley,Nell.Baley@example.com,Oslo,2019-11-09,1003
+20425,5.5x8.5 All the love from Duisburg,5,15.5,mobile app,Phyllis,Wollschlager,Phyllis.Wollschlager@example.com,Duisburg,2019-11-09,1003
+20426,5.5x8.5 All the love from Poznan,4,6.4,web,Elizabeth,Ortiz,Elizabeth.Ortiz@example.com,Poznan,2019-11-09,1003
+20427,5.5x8.5 Come visit me in Paris,2,6.6,mobile app,Melvin,Lawson,Melvin.Lawson@example.com,Paris,2019-11-09,1003
+20428,4.25x6 Just settled in Birmingham,1,4.1,in-store,Brendan,Antoine,Brendan.Antoine@example.com,Birmingham,2019-11-09,1003
+20429,5x7 All the love from Bucuresti (Bucharest),6,10.2,mobile app,Andrea,Tracy,Andrea.Tracy@example.com,Bucuresti (Bucharest),2019-11-09,1003
+20430,6x11 Come visit me in Helsinki,2,7.8,web,Mary,Palmiter,Mary.Palmiter@example.com,Helsinki,2019-11-09,1003
+20431,5x7 Merry Christmas from Penza,5,16.0,mobile app,Justin,Washington,Justin.Washington@example.com,Penza,2019-11-09,1003
+20432,5.5x8.5 Greetings from Essen,3,6.0,mobile app,Susan,Harris,Susan.Harris@example.com,Essen,2019-11-09,1003
+20433,6x11 Merry Christmas from Hannover,6,25.200000000000003,in-store,Richard,Bell,Richard.Bell@example.com,Hannover,2019-11-09,1003
+20434,5x7 All the love from St Petersburg,5,9.0,in-store,Floyd,Washington,Floyd.Washington@example.com,St Petersburg,2019-11-09,1003
+20435,5x7 Merry Christmas from Nizhny Novgorod,5,18.0,web,Kevin,Meadows,Kevin.Meadows@example.com,Nizhny Novgorod,2019-11-09,1003
+20436,5x7 Come visit me in Valencia,5,22.0,web,Michelle,Heise,Michelle.Heise@example.com,Valencia,2019-11-09,1003
+20437,5x7 Greetings from Tolyatti,5,8.5,mobile app,Melvin,Wilson,Melvin.Wilson@example.com,Tolyatti,2019-11-09,1003
+20438,6x11 Just settled in Paris,5,18.5,mobile app,William,Taylor,William.Taylor@example.com,Paris,2019-11-09,1003
+20439,4.25x6 Come visit me in Moskva (Moscow),3,10.8,mobile app,Alice,Crary,Alice.Crary@example.com,Moskva (Moscow),2019-11-09,1003
+20440,6x11 All the love from Barcelona,5,21.5,web,Laura,Blount,Laura.Blount@example.com,Barcelona,2019-11-09,1003
+20441,5.5x8.5 Merry Christmas from Hannover,3,9.0,mobile app,Johnathon,Lawson,Johnathon.Lawson@example.com,Hannover,2019-11-09,1003
+20442,6x11 Come visit me in Bremen,6,22.200000000000003,in-store,Shirley,Palmiter,Shirley.Palmiter@example.com,Bremen,2019-11-09,1003
+20443,6x9 Just settled in Madrid,1,1.7,mobile app,Alberto,Herrera,Alberto.Herrera@example.com,Madrid,2019-11-09,1003
+20444,5x7 Just settled in Hannover,4,15.6,web,Carlos,Clifford,Carlos.Clifford@example.com,Hannover,2019-11-09,1003
+20445,5x7 Come visit me in Samara,2,4.8,web,Charles,Tiller,Charles.Tiller@example.com,Samara,2019-11-09,1003
+20446,6x11 Greetings from Ryazan,6,18.0,mobile app,Arthur,Borum,Arthur.Borum@example.com,Ryazan,2019-11-09,1003
+20447,6x9 Merry Christmas from Tyumen,2,6.6,web,Brian,Straw,Brian.Straw@example.com,Tyumen,2019-11-09,1003
+20448,5x7 Just settled in Yaroslave,3,9.600000000000001,mobile app,Henry,Morales,Henry.Morales@example.com,Yaroslave,2019-11-09,1003
+20449,4.25x6 All the love from Moskva (Moscow),4,12.0,in-store,Alvin,Ruddell,Alvin.Ruddell@example.com,Moskva (Moscow),2019-11-09,1003
+20450,4x6 All the love from Warszawa (Warsaw),4,7.2,mobile app,James,Jackson,James.Jackson@example.com,Warszawa (Warsaw),2019-11-09,1003
+20451,5x7 Merry Christmas from Napoli (Naples),3,11.7,mobile app,Alberto,Shook,Alberto.Shook@example.com,Napoli (Naples),2019-11-09,1003
+20452,4.25x6 Greetings from Duisburg,2,8.4,mobile app,Patricia,Ali,Patricia.Ali@example.com,Duisburg,2019-11-09,1003
+20453,5x7 Come visit me in Lvov,3,6.300000000000001,mobile app,Abigail,Carty,Abigail.Carty@example.com,Lvov,2019-11-09,1003
+20454,4.25x6 Just settled in Ufa,6,15.0,mobile app,Nolan,Schmidt,Nolan.Schmidt@example.com,Ufa,2019-11-09,1003
+20455,5x7 Greetings from Genova,4,13.6,mobile app,James,Mayer,James.Mayer@example.com,Genova,2019-11-09,1003
+20456,6x9 All the love from Vladivostok,3,13.200000000000001,mobile app,Angelo,Kelley,Angelo.Kelley@example.com,Vladivostok,2019-11-09,1003
+20457,5x7 Come visit me in Tolyatti,5,18.5,mobile app,Kelly,Tucker,Kelly.Tucker@example.com,Tolyatti,2019-11-09,1003
+20458,6x11 Just settled in Ulyanovsk,2,8.2,in-store,Idella,Gordon,Idella.Gordon@example.com,Ulyanovsk,2019-11-09,1003
+20459,5.5x8.5 Just settled in Kharkov,3,12.899999999999999,mobile app,Donald,Garcia,Donald.Garcia@example.com,Kharkov,2019-11-09,1003
+20460,5x7 Just settled in Zaragoza,5,16.5,in-store,Gregory,Mccalla,Gregory.Mccalla@example.com,Zaragoza,2019-11-09,1003
+20461,4x6 Just settled in Irkutsk,4,14.0,mobile app,Michael,Lawson,Michael.Lawson@example.com,Irkutsk,2019-11-09,1003
+20462,4.25x6 Just settled in Perm,6,12.600000000000001,mobile app,Keith,Brown,Keith.Brown@example.com,Perm,2019-11-09,1003

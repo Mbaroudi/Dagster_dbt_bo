@@ -1,0 +1,67 @@
+Transaction ID,Product name,Quantity,Total amount,Sales Channel,Customer First Name,Customer Last Name,Customer Email,Series City,Created Date,Reseller ID
+35002,5x7 All the love from Sofia,3,5.1,web,Anthony,Parker,Anthony.Parker@example.com,Sofia,2020-06-19,1003
+35003,6x11 All the love from Odessa,5,8.0,mobile app,William,Graf,William.Graf@example.com,Odessa,2020-06-19,1003
+35004,4x6 Merry Christmas from Izhevsk,2,4.8,web,Peggy,Simpson,Peggy.Simpson@example.com,Izhevsk,2020-06-19,1003
+35005,4x6 Just settled in München (Munich),4,13.2,in-store,Jess,Cain,Jess.Cain@example.com,München (Munich),2020-06-19,1003
+35006,5.5x8.5 All the love from Sarajevo,1,1.7,mobile app,Lorraine,Collar,Lorraine.Collar@example.com,Sarajevo,2020-06-19,1003
+35007,5x7 Merry Christmas from Irkutsk,6,16.200000000000003,web,Samuel,Ackerman,Samuel.Ackerman@example.com,Irkutsk,2020-06-19,1003
+35008,5.5x8.5 Come visit me in Marseille,4,11.2,mobile app,Gene,White,Gene.White@example.com,Marseille,2020-06-19,1003
+35009,4x6 Greetings from Lisboa (Lisbon),6,17.4,web,Dorothy,Jones,Dorothy.Jones@example.com,Lisboa (Lisbon),2020-06-19,1003
+35010,6x9 All the love from Kishinev,6,14.399999999999999,web,Helen,Sayers,Helen.Sayers@example.com,Kishinev,2020-06-19,1003
+35011,4x6 All the love from Athinai (Athens),4,17.6,web,Mabel,Schumaker,Mabel.Schumaker@example.com,Athinai (Athens),2020-06-19,1003
+35012,6x11 Greetings from Praha (Prague),3,8.7,web,Henry,Heaton,Henry.Heaton@example.com,Praha (Prague),2020-06-19,1003
+35013,6x11 Merry Christmas from Roma,6,22.200000000000003,in-store,Ethel,Martin,Ethel.Martin@example.com,Roma,2020-06-19,1003
+35014,6x9 Just settled in Bremen,5,14.0,mobile app,Alberto,Rivera,Alberto.Rivera@example.com,Bremen,2020-06-19,1003
+35015,6x9 All the love from Milano (Milan),4,10.8,web,Mae,Bagg,Mae.Bagg@example.com,Milano (Milan),2020-06-19,1003
+35016,5x7 Just settled in Ulyanovsk,4,7.6,in-store,Alberto,Scaglione,Alberto.Scaglione@example.com,Ulyanovsk,2020-06-19,1003
+35017,6x9 Come visit me in Zaporozhye,2,3.4,mobile app,Andrew,Londono,Andrew.Londono@example.com,Zaporozhye,2020-06-19,1003
+35018,4.25x6 Greetings from Stockholm,6,21.6,mobile app,Kristel,Foreman,Kristel.Foreman@example.com,Stockholm,2020-06-19,1003
+35019,6x9 Merry Christmas from Novokuznetsk,6,12.0,mobile app,Janet,Westlie,Janet.Westlie@example.com,Novokuznetsk,2020-06-19,1003
+35020,4x6 Just settled in Wroclaw (Breslau),6,14.399999999999999,web,Paul,Dona,Paul.Dona@example.com,Wroclaw (Breslau),2020-06-19,1003
+35021,4.25x6 All the love from Naberezhnye Tchelny,5,16.0,mobile app,Jose,Westlie,Jose.Westlie@example.com,Naberezhnye Tchelny,2020-06-19,1003
+35022,5.5x8.5 Merry Christmas from Sarajevo,6,18.0,in-store,Gordon,Sims,Gordon.Sims@example.com,Sarajevo,2020-06-19,1003
+35023,4x6 Greetings from Rotterdam,2,7.4,web,Anthony,Canning,Anthony.Canning@example.com,Rotterdam,2020-06-19,1003
+35024,4x6 Just settled in Dnepropetrovsk,1,1.7,mobile app,Theresa,Simon,Theresa.Simon@example.com,Dnepropetrovsk,2020-06-19,1003
+35025,5.5x8.5 Merry Christmas from Duisburg,5,10.5,mobile app,Dorothy,West,Dorothy.West@example.com,Duisburg,2020-06-19,1003
+35026,5.5x8.5 All the love from Poznan,6,9.600000000000001,web,Darrel,Wilson,Darrel.Wilson@example.com,Poznan,2020-06-19,1003
+35027,5x7 Merry Christmas from Valencia,3,12.899999999999999,web,Ariel,Short,Ariel.Short@example.com,Valencia,2020-06-19,1003
+35028,4.25x6 Greetings from Poznan,3,4.5,web,Victor,Grant,Victor.Grant@example.com,Poznan,2020-06-19,1003
+35029,5.5x8.5 Merry Christmas from Zaporozhye,6,15.600000000000001,web,Nolan,Greene,Nolan.Greene@example.com,Zaporozhye,2020-06-19,1003
+35030,5x7 Merry Christmas from Sarajevo,4,9.2,web,Dorothy,Omara,Dorothy.Omara@example.com,Sarajevo,2020-06-19,1003
+35031,4.25x6 Just settled in Penza,2,8.4,web,Robert,Chauez,Robert.Chauez@example.com,Penza,2020-06-19,1003
+35032,4x6 Merry Christmas from Krasnoyarsk,5,16.5,web,Mark,Williams,Mark.Williams@example.com,Krasnoyarsk,2020-06-19,1003
+35033,5.5x8.5 Merry Christmas from Khabarovsk,2,3.0,in-store,Laurence,Ellison,Laurence.Ellison@example.com,Khabarovsk,2020-06-19,1003
+35034,5.5x8.5 Greetings from Krasnoyarsk,4,10.8,web,Michael,Vargas,Michael.Vargas@example.com,Krasnoyarsk,2020-06-19,1003
+35035,6x9 Greetings from Berlin,2,8.8,in-store,Nick,Baremore,Nick.Baremore@example.com,Berlin,2020-06-19,1003
+35036,4.25x6 Come visit me in Khabarovsk,1,2.5,mobile app,Herbert,Williams,Herbert.Williams@example.com,Khabarovsk,2020-06-19,1003
+35037,4.25x6 Come visit me in Irkutsk,2,4.8,web,Kim,Merna,Kim.Merna@example.com,Irkutsk,2020-06-19,1003
+35038,5.5x8.5 Come visit me in Athinai (Athens),3,11.100000000000001,web,Mary,Ludgate,Mary.Ludgate@example.com,Athinai (Athens),2020-06-19,1003
+35039,4x6 Greetings from Rostov-Na-Donu,3,8.399999999999999,mobile app,Linda,Rockwell,Linda.Rockwell@example.com,Rostov-Na-Donu,2020-06-19,1003
+35040,6x9 All the love from Yaroslave,3,9.899999999999999,in-store,Jack,Starkey,Jack.Starkey@example.com,Yaroslave,2020-06-19,1003
+35041,5x7 Greetings from Kemerovo,3,11.100000000000001,web,Kenneth,Oneill,Kenneth.Oneill@example.com,Kemerovo,2020-06-19,1003
+35042,6x11 Greetings from Khabarovsk,4,11.2,mobile app,Kevin,Johnson,Kevin.Johnson@example.com,Khabarovsk,2020-06-19,1003
+35043,6x11 Merry Christmas from Zagreb,1,2.2,web,Kenneth,Sanner,Kenneth.Sanner@example.com,Zagreb,2020-06-19,1003
+35044,4x6 Greetings from Lódz,3,9.0,mobile app,Walter,Riley,Walter.Riley@example.com,Lódz,2020-06-19,1003
+35045,6x9 All the love from Ufa,5,13.5,web,Crystal,Hyde,Crystal.Hyde@example.com,Ufa,2020-06-19,1003
+35046,4.25x6 Greetings from Duisburg,3,12.600000000000001,mobile app,Marie,Mahon,Marie.Mahon@example.com,Duisburg,2020-06-19,1003
+35047,5.5x8.5 Just settled in Dnepropetrovsk,1,1.9,mobile app,Gary,King,Gary.King@example.com,Dnepropetrovsk,2020-06-19,1003
+35048,6x11 Come visit me in Torino (Turin),1,2.9,mobile app,Tobias,Peoples,Tobias.Peoples@example.com,Torino (Turin),2020-06-19,1003
+35049,5x7 Come visit me in Bremen,1,3.5,mobile app,Johnathon,Jones,Johnathon.Jones@example.com,Bremen,2020-06-19,1003
+35050,5.5x8.5 Just settled in Helsinki,2,5.2,in-store,Maria,Kelly,Maria.Kelly@example.com,Helsinki,2020-06-19,1003
+35051,5.5x8.5 Greetings from Oslo,1,4.4,mobile app,Emelda,Ross,Emelda.Ross@example.com,Oslo,2020-06-19,1003
+35052,4x6 All the love from Kemerovo,5,12.0,web,Fernando,Toscano,Fernando.Toscano@example.com,Kemerovo,2020-06-19,1003
+35053,6x9 Just settled in Vilnius,5,18.5,mobile app,Helen,Cooper,Helen.Cooper@example.com,Vilnius,2020-06-19,1003
+35054,5x7 Come visit me in Krasnodar,6,13.799999999999999,web,Matilda,Boggs,Matilda.Boggs@example.com,Krasnodar,2020-06-19,1003
+35055,6x9 Greetings from Beograd (Belgrade),2,4.4,web,Amanda,Scofield,Amanda.Scofield@example.com,Beograd (Belgrade),2020-06-19,1003
+35056,4.25x6 Just settled in Kharkov,2,7.2,mobile app,Patrick,Rangel,Patrick.Rangel@example.com,Kharkov,2020-06-19,1003
+35057,4x6 Merry Christmas from Palermo,1,4.1,web,Anna,Holzer,Anna.Holzer@example.com,Palermo,2020-06-19,1003
+35058,4.25x6 Greetings from Voronezh,6,9.600000000000001,web,Gilberto,Hickman,Gilberto.Hickman@example.com,Voronezh,2020-06-19,1003
+35059,5x7 Merry Christmas from Krasnodar,5,20.0,mobile app,Audie,Nation,Audie.Nation@example.com,Krasnodar,2020-06-19,1003
+35060,6x9 Come visit me in Kishinev,4,17.6,web,Martha,Dacey,Martha.Dacey@example.com,Kishinev,2020-06-19,1003
+35061,5.5x8.5 Merry Christmas from Izhevsk,4,11.6,mobile app,Gayla,Long,Gayla.Long@example.com,Izhevsk,2020-06-19,1003
+35062,6x9 Greetings from Wroclaw (Breslau),1,4.4,web,Eva,Notis,Eva.Notis@example.com,Wroclaw (Breslau),2020-06-19,1003
+35063,6x9 Just settled in Mykolaiv ,6,22.200000000000003,web,Erica,Thissen,Erica.Thissen@example.com,Mykolaiv ,2020-06-19,1003
+35064,6x9 Just settled in Napoli (Naples),3,8.399999999999999,in-store,Charles,Akin,Charles.Akin@example.com,Napoli (Naples),2020-06-19,1003
+35065,4x6 Just settled in Minsk,6,12.600000000000001,web,Irene,Hannah,Irene.Hannah@example.com,Minsk,2020-06-19,1003
+35066,4x6 Merry Christmas from Krasnodar,4,10.4,web,Michelle,Miller,Michelle.Miller@example.com,Krasnodar,2020-06-19,1003
+35067,4.25x6 Just settled in Dortmund,6,23.4,web,Shelley,Yoo,Shelley.Yoo@example.com,Dortmund,2020-06-19,1003

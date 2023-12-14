@@ -1,0 +1,11 @@
+dagster
+dagstermill
+papermill-origami>=0.0.8
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+[dev]
+dagster-webserver
+pytest

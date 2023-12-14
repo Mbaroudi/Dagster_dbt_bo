@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "datamart"."postcard_company_raw"."geography";
+    -- dbt seed --
+    
+          COPY "datamart"."postcard_company_raw"."geography" FROM '/dagster-dbt/postcard_company_dm/dbt/seeds/geography.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

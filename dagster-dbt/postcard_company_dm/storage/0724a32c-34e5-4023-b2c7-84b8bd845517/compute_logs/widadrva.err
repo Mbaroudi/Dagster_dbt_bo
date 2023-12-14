@@ -1,0 +1,61 @@
+2023-12-01 14:16:45 +0000 - dagster - DEBUG - __ASSET_JOB - 0724a32c-34e5-4023-b2c7-84b8bd845517 - 3796 - LOGS_CAPTURED - Started capturing logs in process (pid: 3796).
+2023-12-01 14:16:45 +0000 - dagster - DEBUG - __ASSET_JOB - 0724a32c-34e5-4023-b2c7-84b8bd845517 - 3796 - run_dbt_7daad - STEP_START - Started execution of step "run_dbt_7daad".
+2023-12-01 14:16:46 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Executing command: dbt --no-use-colors --log-format json build --project-dir /dagster-dbt/postcard_company_dm/postcard_company_dm/../dbt --profiles-dir /dagster-dbt/postcard_company_dm/postcard_company_dm/../dbt/config --select fqn:*
+2023-12-01 14:16:50 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Running with dbt=1.7.3
+2023-12-01 14:16:51 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Registered adapter: duckdb=1.7.0
+2023-12-01 14:16:51 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Found 22 models, 1 test, 1 seed, 7 sources, 0 exposures, 0 metrics, 503 macros, 0 groups, 0 semantic models
+2023-12-01 14:16:51 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad
+2023-12-01 14:16:51 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad
+2023-12-01 14:16:51 +0000 - dagster - INFO - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Finished running  in 0 hours 0 minutes and 0.05 seconds (0.05s).
+2023-12-01 14:16:51 +0000 - dagster - ERROR - resource:dbt - 0724a32c-34e5-4023-b2c7-84b8bd845517 - run_dbt_7daad - Encountered an error:
+Runtime Error
+  IO Error: Trying to read a database file with version number 51, but we can only read version 64.
+  The database file was created with DuckDB version v0.8.0 or v0.8.1.
+  
+  The storage of DuckDB is not yet stable; newer versions of DuckDB cannot read old database files and vice versa.
+  The storage will be stabilized when version 1.0 releases.
+  
+  For now, we recommend that you load the database file in a supported version of DuckDB, and use the EXPORT DATABASE command followed by IMPORT DATABASE on the current version of DuckDB.
+  
+  See the storage page for more information: https://duckdb.org/internals/storage
+2023-12-01 14:16:52 +0000 - dagster - ERROR - __ASSET_JOB - 0724a32c-34e5-4023-b2c7-84b8bd845517 - 3796 - run_dbt_7daad - STEP_FAILURE - Execution of step "run_dbt_7daad" failed.
+
+dagster_dbt.errors.DagsterDbtCliFatalRuntimeError: Fatal error in the dbt CLI (return code 2): Running with dbt=1.7.3 Registered adapter: duckdb=1.7.0 Found 22 models, 1 test, 1 seed, 7 sources, 0 exposures, 0 metrics, 503 macros, 0 groups, 0 semantic models   Finished running  in 0 hours 0 minutes and 0.05 seconds (0.05s). Encountered an error:
+Runtime Error
+  IO Error: Trying to read a database file with version number 51, but we can only read version 64.
+  The database file was created with DuckDB version v0.8.0 or v0.8.1.
+  
+  The storage of DuckDB is not yet stable; newer versions of DuckDB cannot read old database files and vice versa.
+  The storage will be stabilized when version 1.0 releases.
+  
+  For now, we recommend that you load the database file in a supported version of DuckDB, and use the EXPORT DATABASE command followed by IMPORT DATABASE on the current version of DuckDB.
+  
+  See the storage page for more information: https://duckdb.org/internals/storage
+
+Stack Trace:
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/execute_plan.py", line 286, in dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/execute_step.py", line 478, in core_dagster_event_sequence_for_step
+    for user_event in _step_output_error_checked_user_event_sequence(
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/execute_step.py", line 160, in _step_output_error_checked_user_event_sequence
+    for user_event in user_event_sequence:
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/execute_step.py", line 95, in _process_asset_results_to_events
+    for user_event in user_event_sequence:
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/compute.py", line 212, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn, compute_context):
+  File "/usr/local/lib/python3.11/site-packages/dagster/_core/execution/plan/compute.py", line 181, in _yield_compute_results
+    for event in iterate_with_context(
+  File "/usr/local/lib/python3.11/site-packages/dagster/_utils/__init__.py", line 465, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/dagster_dbt/asset_defs.py", line 357, in _dbt_op
+    yield from _stream_event_iterator(
+  File "/usr/local/lib/python3.11/site-packages/dagster_dbt/asset_defs.py", line 256, in _stream_event_iterator
+    for parsed_json_line in dbt_resource.cli_stream_json(
+  File "/usr/local/lib/python3.11/site-packages/dagster_dbt/core/resources.py", line 227, in cli_stream_json
+    for event in execute_cli_stream(
+  File "/usr/local/lib/python3.11/site-packages/dagster_dbt/core/utils.py", line 187, in execute_cli_stream
+    for event in _core_execute_cli(
+  File "/usr/local/lib/python3.11/site-packages/dagster_dbt/core/utils.py", line 157, in _core_execute_cli
+    raise DagsterDbtCliFatalRuntimeError(messages=messages)
+
