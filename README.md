@@ -87,5 +87,4 @@ After the DAGs have completed you can either analyze the data using the querying
 Inspired by:
 - [Build a poor man’s data lake from scratch with DuckDB](https://dagster.io/blog/duckdb-data-lake)
 - [Using dbt with Dagster software-defined assets](https://docs.dagster.io/integrations/dbt/using-dbt-with-dagster)
-=======
 # Dagster_dbt_bo
