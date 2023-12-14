@@ -1,15 +1,17 @@
-<<<<<<< HEAD
+
 # Portable Data Stack
 
 This application is an Analytics suite suite for an imaginary company selling postcards. The company sells both directly but also through resellers in the majority of European countries.
 
-## Stack
+## Stack for Data Pipeline
 
 - Dagster
 - Docker & Docker-Compose
-- DuckDB
+- DuckDB (Olap)
 - dbt core
-- Superset
+- Superset (Will be installed in other Docker image for simplicity)
+- You can also work with others open source dashboard system like Evidence(https://evidence.dev/), Rill (https://www.rilldata.com/), Metabase (https://www.metabase.com/dashboards/)
+- For Semantic Layer serving Cube you can also use open source cube (cube semantic layer: https://cube.dev/)
 
 
 ### System requirements
@@ -39,7 +41,7 @@ Demo credentials are set in the .env file mentioned above.
 
 ### Ports exposed locally
 * Dagster (dagit): 3000
-* Superset: 8088
+* Superset: 8088 (in the other superset image)
 * PosgreSQL OLTP Database instance: 54320
 
 Generated flat files (JSON, CSV) are saved in the **shared** folder.
